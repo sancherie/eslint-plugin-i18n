@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-i18n",
+  "version": "0.0.0",
+  "description": "Find the missing translations in a project",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "sancherie",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "require": "^2.4.20",
+    "requireindex": "~1.1.0",
+    "vue-eslint-parser": "^7.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
