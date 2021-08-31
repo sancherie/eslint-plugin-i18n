@@ -1,4 +1,4 @@
-# eslint-plugin-translation
+# eslint-plugin-i18n
 
 Find the missing translations in a project
 
@@ -13,18 +13,18 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-translation`:
 
 ```
-$ npm install eslint-plugin-translation --save-dev
+$ npm install @sancherie/eslint-plugin-i18n --save-dev
 ```
 
 
 ## Usage
 
-Add `translation` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@sancherie/eslint-plugin-i18n` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "translation"
+        "@sancherie/i18n"
     ]
 }
 ```
@@ -35,7 +35,10 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "translation/rule-name": 2
+        "@sancherie/i18n/missing-translation": ["warn", {
+            "locales": "fr",
+            "localesDir": "/locales"
+        }]
     }
 }
 ```
