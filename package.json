@@ -1,7 +1,7 @@
 {
   "name": "@sancherie/eslint-plugin-i18n",
   "private": false,
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Find the missing translations in a project",
   "keywords": [
     "eslint",
