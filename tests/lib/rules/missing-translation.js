@@ -8,9 +8,8 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/missing-translation"),
-
-    RuleTester = require("eslint").RuleTester;
+var rule = require("../../../lib/rules/missing-translation");
+var RuleTester = require("eslint").RuleTester;
 
 
 //------------------------------------------------------------------------------
